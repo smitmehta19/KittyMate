@@ -32,7 +32,7 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#"><img src="images\avatar.png" width="45" height="45" alt="" loading="lazy"> KittyMate</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -41,7 +41,7 @@
               <a class="nav-link" href="">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">Download</a>
@@ -58,7 +58,7 @@
 
 
       <div class="row">
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6">
 
           <h1>Meet new and interesting cats nearby.</h1>
           <button type="button" class="btn btn-dark btn btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
@@ -66,7 +66,7 @@
 
         </div>
 
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6">
           <!-- anything which is laptop or bigger is a 6 unit col -->
           <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
@@ -152,73 +152,76 @@
 
 
   <!-- Pricing -->
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Pricing</h1>
-    <p class="lead">Simple and affordable price plans for you & your Kitty. Select the plan which suits your Kitty's Swag.</p>
-  </div>
+  <section id="pricing">
 
-  <div class="container">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Pricing</h1>
+      <p class="lead">Simple and affordable price plans for you & your Kitty. Select the plan which suits your Kitty's Swag.</p>
+    </div>
 
-    <div class="card-deck mb-3 text-center">
-      <div class="col-lg-4 col-md-6">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Silver Kitty Tier</h4>
+    <div class="container">
+
+      <div class="card-deck mb-3 text-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Silver Kitty Tier</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$20 </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 matches per month</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="price-butto-silver btn btn-lg btn-block btn-outline-dark">Join Silver Tier</button>
+            </div>
           </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$20 </h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>10 matches per month</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="price-butto-silver btn btn-lg btn-block btn-outline-dark">Join Silver Tier</button>
+
+        </div>
+        <div class="col-lg-4 col-md-6">
+
+
+          <div class="card mb-4 shadow-sm">
+
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Gold Kitty Tier</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$40 </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 matches per month</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="price-button-gold btn btn-lg btn-block btn-outline-dark">Join Golden Tier</button>
+              <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+            </div>
           </div>
         </div>
-
-      </div>
-      <div class="col-lg-4 col-md-6">
-
-
-      <div class="card mb-4 shadow-sm">
-
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Gold Kitty Tier</h4>
-        </div>
-        <div class="card-body">
-          <h1 class="card-title pricing-card-title">$40 </h1>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>20 matches per month</li>
-            <li>10 GB of storage</li>
-            <li>Priority email support</li>
-            <li>Help center access</li>
-          </ul>
-          <button type="button" class="price-button-gold btn btn-lg btn-block btn-outline-dark">Join Golden Tier</button>
-          <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+        <div class="col-lg-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Platinum Kitty Tier</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$80</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 matches per month</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="price-button-platinum btn btn-lg btn-block btn-outline-dark">Join Platinum Tier</button>
+              <!-- <button type="button" class="btn btn-lg btn-outline btn-dark btn-block">Contact us</button> -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-lg-4">
-      <div class="card mb-4 shadow-sm">
-        <div class="card-header">
-          <h4 class="my-0 font-weight-normal">Platinum Kitty Tier</h4>
-        </div>
-        <div class="card-body">
-          <h1 class="card-title pricing-card-title">$80</h1>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>30 matches per month</li>
-            <li>15 GB of storage</li>
-            <li>Phone and email support</li>
-            <li>Help center access</li>
-          </ul>
-          <button type="button" class="price-button-platinum btn btn-lg btn-block btn-outline-dark">Join Platinum Tier</button>
-          <!-- <button type="button" class="btn btn-lg btn-outline btn-dark btn-block">Contact us</button> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
+  </section>
 
   <!-- <section id="pricing">
 
