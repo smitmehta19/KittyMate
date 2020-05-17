@@ -24,7 +24,7 @@ p{
   font-size: 1rem;
 }
 .container-fluid{
-  padding: 5% 10%;
+  padding: 3% 15% 7%;
 }
 .body{
   font-family: "Montserrat";
@@ -57,6 +57,8 @@ p{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 /* Features */
 
@@ -65,6 +67,9 @@ p{
 } */
 #features{
   padding: 7% 15%;
+  background-color: #f4f4f4;
+  z-index: 1;
+  position: relative;
 }
 .features-box{
   text-align: center;
