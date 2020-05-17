@@ -162,7 +162,7 @@ html {
 }
 
 .price-button-platinum:hover {
-  color: #ff4c68;}                                    
+  color: #ff4c68;}
 
 @media (max-width: 1028px) {
     #title {
@@ -174,3 +174,38 @@ html {
       transform: rotate(0);
     }
   }
+  /* action section */
+.action-section{
+  background-color: #ff4c68;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 6% 5% 0 5%;
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #f4f4f4;
+}
+.cta-heading{
+  padding: 7% 15% 5%;
+  line-height: 1.5;
+  font-family: "Montserrat Black";
+  font-size: 1.5rem;
+
+}
+.download-button2 {
+  margin: 0 3% 5% 0;
+}
+
+
+/* Fotter Section */
+#footer{
+  padding: 1% 15%;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.footer-emoticons{
+  color: Black;
+  margin: 20px 10px;
+}
